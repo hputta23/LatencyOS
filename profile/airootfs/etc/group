@@ -1,0 +1,9 @@
+root:x:0:root
+sys:x:3:bin
+adm:x:4:root,trading
+wheel:x:998:root,trading
+uucp:x:10:root,trading
+video:x:986:root,trading
+audio:x:995:root,trading
+input:x:994:root,trading
+trading:x:1000:

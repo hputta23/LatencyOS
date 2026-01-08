@@ -1,0 +1,18 @@
+#!/bin/sh
+
+# Start Polkit Agent (Password prompts)
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
+
+# Start Network Applet (Wifi Tray)
+nm-applet --indicator &
+
+# Start Status Bar (Clock/Time)
+waybar &
+
+# Start Chromium (Maximized)
+chromium \
+  --start-maximized \
+  --enable-features=UseOzonePlatform \
+  --ozone-platform=wayland \
+  "https://robinhood.com/legend" &

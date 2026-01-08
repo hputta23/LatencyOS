@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<labwc_config>
+  <core>
+    <gap>0</gap>
+  </core>
+  <windowRules>
+    <windowRule identifier="chromium" serverDecoration="no" />
+  </windowRules>
+  <keyboard>
+    <keybind key="C-A-t">
+      <action name="Execute" command="foot" />
+    </keybind>
+  </keyboard>
+</labwc_config>

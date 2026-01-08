@@ -1,0 +1,5 @@
+work/
+work_broken_*/
+out/
+build.log
+.DS_Store

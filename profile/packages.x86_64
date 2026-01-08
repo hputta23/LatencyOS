@@ -1,0 +1,47 @@
+# Base System
+base
+linux
+linux-firmware
+amd-ucode
+intel-ucode
+mkinitcpio
+mkinitcpio-archiso
+syslinux
+grub
+efibootmgr
+
+# Networking
+networkmanager
+ethtool
+bind
+
+# Utils
+git
+vim
+htop
+openssh
+
+# Wayland / Graphics (Minimal)
+wayland
+# Desktop Environment
+labwc
+waybar
+network-manager-applet
+polkit-gnome
+ttf-dejavu
+papirus-icon-theme
+foot
+
+
+xorg-xwayland
+# mesa # depending on hardware, usually needed
+
+# Browser (User must provide this via custom repo or add to build)
+chromium
+
+# firejail
+
+# Audio (Minimal)
+pipewire
+pipewire-alsa
+pipewire-pulse
